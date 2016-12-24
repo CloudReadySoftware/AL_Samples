@@ -1,0 +1,23 @@
+{
+  "id": "8a65d9f4-bc46-48ec-a53f-76848e671d6e",
+  "name": "Rental Extension",
+  "publisher": "Cloud Ready Software GmbH",
+  "brief": "",
+  "description": "",
+  "version": "1.0.0.0",
+  "compatibilityId": "1.0.0.0",
+  "privacyStatement": "",
+   "EULA": "",
+   "help": "",
+   "url": "",
+   "logo": "",
+   "capabilities": [],
+   "dependencies": [],
+   "screenShots": [],
+   "platform": "10.0.0.0",
+   "application": {
+       "version": "10.0.0.0",
+       "locale": "US"
+   },
+   "packageCachePath": "C:\\_Installs\\New Developer Experience\\Resources"
+}
