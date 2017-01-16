@@ -10,7 +10,8 @@
             "server": "http://localhost",
             "serverInstance": "Rental_DEV",                
             "tenant": "default",
-            "windowsAuthentication": true                        
+            "windowsAuthentication": true,
+            "startupObjectId": 70066094
         }
     ]
 }

@@ -11,6 +11,9 @@ get-navserverinstance | Copy-NAVEnvironment -ToServerInstance $DEVInstanceName
 #Enable 
 #Get-NAVServerInstanceDetails $DEVInstanceName
 Set-NAVServerConfiguration -ServerInstance $DEVInstanceName -KeyName 'DeveloperServicesEnabled' -KeyValue 'True'
+Set-NAVServerConfiguration -ServerInstance $DEVInstanceName -KeyName "PublicWebBaseUrl" -KeyValue "http://localhost:8080/$DEVInstanceName/WebClient/" -WarningAction Ignore
+
+
 Set-NAVServerInstance -ServerInstance $DEVInstanceName -Restart 
 
 Get-NAVServerInstance
