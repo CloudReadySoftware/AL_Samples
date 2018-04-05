@@ -1,4 +1,4 @@
-pageextension 50001 ItemListPageExtension extends "Item List"
+pageextension 50001 ItemListPageExtension extends "Item List" //31
 {
     layout
     {
@@ -23,10 +23,8 @@ pageextension 50001 ItemListPageExtension extends "Item List"
                 ApplicationArea=Basic,Suite;
 
                 trigger OnAction();
-                var
-                    CalcItemClassification:Codeunit "CalcItemClassification Meth.";
                 begin
-                    CalcItemClassification.CalcItemClassification(Rec);
+                    Rec.CalcItemClassification();
                 end;
             }
         }

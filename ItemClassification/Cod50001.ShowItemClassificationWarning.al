@@ -1,4 +1,4 @@
-codeunit 50001 MyCodeunit
+codeunit 50001 ShowItemClassificationWarning
 {
     trigger OnRun();
     begin
