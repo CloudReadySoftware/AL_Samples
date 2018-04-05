@@ -8,10 +8,10 @@
             "projectRoot": "${workspaceRoot}",
             "packageFileName": "${command.resolvePackageFileName}",                                                                        
             "server": "http://localhost",
-            "serverInstance": "Rental_DEV",                
+            "serverInstance": "Navision_main",                
             "tenant": "default",
-            "windowsAuthentication": true,
-            "startupObjectId": 70066094
+            "windowsAuthentication": true
+            //,"startupObjectId": 70066094
         }
     ]
 }

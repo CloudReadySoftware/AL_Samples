@@ -15,6 +15,7 @@ pageextension 70066090 ItemListExtension extends "Item List"
     actions
     {
         // Add changes to page actions here
+                    
     }
 }
 

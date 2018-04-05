@@ -1,5 +1,5 @@
 {
-  "id": "8a65d9f4-bc46-48ec-a53f-76848e671d6e",
+  "id": "1E9E9DC8-9EDF-4CEE-AEA0-B19330E72BCD",
   "name": "Rental Extension",
   "publisher": "Cloud Ready Software GmbH",
   "brief": "",
@@ -19,5 +19,5 @@
        "version": "10.0.0.0",
        "locale": "US"
    },
-   "packageCachePath": "C:\\_Installs\\New Developer Experience\\Resources"
+   "packageCachePath": "C:\\DEMO\\New Developer Experience\\Resources"
 }

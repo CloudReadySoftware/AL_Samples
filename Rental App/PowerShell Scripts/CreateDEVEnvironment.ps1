@@ -2,6 +2,10 @@ Import-Module 'C:\Program Files\Microsoft Dynamics NAV\100\Service\NavAdminTool.
 Import-Module 'C:\Program Files (x86)\Microsoft Dynamics NAV\100\RoleTailored Client\Microsoft.Dynamics.NAV.Model.Tools.psd1' -WarningAction SilentlyContinue -Scope Global -Force | out-null
 Import-Module 'C:\Program Files (x86)\Microsoft Dynamics NAV\100\RoleTailored Client\Microsoft.Dynamics.Nav.Apps.Tools.psd1' -WarningAction SilentlyContinue -Scope Global -Force | out-null
 
+Get-NAVServerInstance
+
+break;
+
 #Vars
 $DEVInstanceName = 'Rental_DEV'
 
@@ -17,3 +21,4 @@ Set-NAVServerConfiguration -ServerInstance $DEVInstanceName -KeyName "PublicWebB
 Set-NAVServerInstance -ServerInstance $DEVInstanceName -Restart 
 
 Get-NAVServerInstance
+

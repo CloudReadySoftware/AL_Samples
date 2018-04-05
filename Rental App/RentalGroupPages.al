@@ -6,7 +6,7 @@ Page 70066092 "Rental Group FactBox"
     {
         area(Content)
         {
-            Group("Repeater")
+            Group("")
             {
                 repeater("RentalGroups")
                 {
@@ -53,7 +53,7 @@ page 70066094 RentalGroups
     }
 }
 
-pageextension 70066095 RentalGroupsActionOnItemList extends "Item List"
+pageextension 70066095 RentalGroupsActionOnItemList extends "item list"
 {    
     Actions    
     {
@@ -68,10 +68,11 @@ pageextension 70066095 RentalGroupsActionOnItemList extends "Item List"
                     Promoted=true;
                     PromotedCategory=Process;
                     PromotedIsBig=true;
-                    RunObject=page RentalGroups;
+                    RunObject=page RentalGroups;                    
                 }
             }
             
         }
     }
 }
+

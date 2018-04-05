@@ -3,7 +3,7 @@ Codeunit 70066091 RentalSubscriptions
     [EventSubscriber(ObjectType::Table, 27, 'OnAfterModifyEvent', '', true, true)]
     local procedure TestMessage();
     begin
-        message('Event is working!');
+        message('You just changed an Item!');
         OnAfterTestMessage();
     end;
 

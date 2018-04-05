@@ -12,3 +12,4 @@ tableextension 70066090 ItemExtension extends Item
         EXIT("Rental Item");
     end;
 }
+
